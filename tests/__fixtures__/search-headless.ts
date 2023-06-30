@@ -35,9 +35,9 @@ export function generateMockedHeadless(state?: RecursivePartial<State>): SearchH
    * - Jest: through moduleNameMapper configuration
    */
   const headless = provideHeadless({
-    apiKey: '',
-    experienceKey: '',
-    locale: ''
+    apiKey: '3f823ea1c87c6154d6c069c8f77c4b51',
+    experienceKey: 'dvids-search',
+    locale: 'en'
   });
   headless.setState(mergedState);
   return headless;
